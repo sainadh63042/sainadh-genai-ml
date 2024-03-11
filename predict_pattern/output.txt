@@ -1,0 +1,20 @@
+/home/user/PycharmProjects/.venv/bin/python /home/user/PycharmProjects/tensor_flow_directory/predict_pattern.py 
+2024-03-11 16:03:00.618484: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-03-11 16:03:00.654073: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-03-11 16:03:00.654119: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-03-11 16:03:00.655305: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-03-11 16:03:00.661298: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-03-11 16:03:00.661509: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-03-11 16:03:01.418838: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+
+1/1 [==============================] - 0s 49ms/step
+The next number in the sequence of [1 2 3 4] is: 5
+1/1 [==============================] - 0s 31ms/step
+The next number in the sequence of [2 4 6 8] is: 10
+1/1 [==============================] - 0s 31ms/step
+The next number in the sequence of [1 3 5 7] is: 9
+1/1 [==============================] - 0s 31ms/step
+The next number in the sequence of [ 1  4  7 10] is: 13
+
+Process finished with exit code 0
